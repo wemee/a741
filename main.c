@@ -36,10 +36,10 @@ int main(){
                 middle = ary[(r-1)/2];
             
             sum = 0;
-            for (i=0; i<r; i++) {
+            for (i=0; i<r; i++)
                 sum += abs(middle-ary[i]);
-            }
             printf("%d\n", sum);
+            
             free(ary);
         }
     }
